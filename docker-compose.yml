@@ -7,8 +7,6 @@ services:
     image: python:3.9.5
     # Nombre del container:
     container_name: prueba_django
-    # Comportamiento ante fallos y al iniciar el sistema:
-    restart: always
     # Carpetas enlazadas:
     volumes:
       # Source code directory:

@@ -14,17 +14,18 @@ docker-compose.yml
 ---
 
 # Comandos útiles 🐋
+Los comandos a continución se deben ejecutar siempre en el mismo directorio del archivo *docker-compose.yml*  
 
-### 1. Correr el proyecto
-Siempre en el mismo directorio del archivo *docker-compose.yml*  
+### 1. Cómo lanzar el proyecto y el contenedor de django
 
 **$** `docker-compose up`
 
-### 2. Correr la línea de comandos dentro del contenedor
+### 2. Cómo abrir una consola dentro del contenedor lanzado
+El comando genérico sería el siguietne:
 
 **$** `docker exec -i -t [nombre_del_contenedor] bash`
 
-Para el caso de este ejemplo:
+Para el caso de este ejemplo utilizaremos:
 
 **$** `docker exec -i -t prueba_django bash`
 
